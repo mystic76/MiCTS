@@ -16,7 +16,7 @@ object AppConfig {
 
     val DEFAULT_CONFIG = mapOf<String, Any>(
         KEY_LANGUAGE to Language.FollowSystem.ordinal,
-        KEY_DEFAULT_DELAY to 0L,
+        KEY_DEFAULT_DELAY to 500L,
         KEY_TILE_DELAY to 400L,
     )
 }
