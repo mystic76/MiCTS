@@ -103,9 +103,9 @@ fun SettingsScreen(viewModel: SettingsViewModel) {
             LargeTopAppBar(
                 title = {
                     Column {
-                        Text("MiCTS")
+                        Text("Circle To Search")
                         Text(
-                            text = "v${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})",
+                            text = "by abhiram79",
                             style = MaterialTheme.typography.titleSmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -176,9 +176,9 @@ fun SettingsScreen(viewModel: SettingsViewModel) {
                         modifier = Modifier.size(50.dp)
                     )
                     Column(modifier = Modifier.padding(horizontal = 16.dp)) {
-                        Text("MiCTS")
+                        Text("Circle To Search")
                         Text(
-                            text = "v${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})",
+                            text = "by abhiram79",
                             style = MaterialTheme.typography.titleSmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -187,9 +187,9 @@ fun SettingsScreen(viewModel: SettingsViewModel) {
             },
             text = {
                 Text(buildAnnotatedString {
-                    withLink(LinkAnnotation.Url(url = "https://github.com/parallelcc/micts")) {
+                    withLink(LinkAnnotation.Url(url = "https://github.com/abhiram79/Circle-To-Search")) {
                         withStyle(style = SpanStyle(color = MaterialTheme.colorScheme.primary)) {
-                            append("https://github.com/parallelcc/micts")
+                            append("https://github.com/abhiram79/Circle-To-Search")
                         }
                     }
                 })
