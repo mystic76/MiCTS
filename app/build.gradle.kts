@@ -22,7 +22,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.parallelc.micts"
+        applicationId = "com.abhiram79.cts"
         minSdk = 28
         targetSdk = 35
         versionCode = commitCount
